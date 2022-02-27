@@ -3,7 +3,7 @@
 ## Áttekintés
 A következőkben egy olyan rendszer fejlesztésén fogunk dolgozni, mely az Eszterházy Károly Katolikus Egyetem Sporttudományi Intézet munkáját könnyíti meg. Célunk ezzel a projekttel a látogatók papíralapú nyilvántartásának kiváltása.  A vendégeknek egyszeri regisztráció után az appon belül generálhatnak maguknak egyedi QR kód azonosítótt, mely amolyan digitális jegyként szolgál. Továbbá, hasonló módszerrel, egy egyszerű (az eseményhez egyedi generálású) QR kódot beolvasva további adminisztrációs feladatuk nem lesz. Több platformon való megjelentetés van tervben, a látogatóknak ingyenesen elérhető mobil alkalmazás, mely az adott platform (Android, IOs) applikációs áruházából lesz hozzáférhető, továbbá az adminisztrátor(ok)nak egy külön felület, mely lehetővé teszi nekik a gyors és átlátható munkát.
 ## Jelenlegi helyzet
-
+Az EKKE Sporttudomány Intézet szeretné átláthatóbbá és könnyebben kezelhetővé tenni a rendezvényeivel kapcsolatos adminisztratív feladatokat. Kényelmesebbé és gyorsabbá szándékozzák tenni ezt a procedúrát, mind dolgozóik, mind vendégeik számára, ezzel időt és munkaerőt spórolva. Modernebb megoldásra vágynak a jelenlegi papíralapú adminisztrációnál, melyben nem csak a hibalehetőség a nagy (pl.: elkeveredik egy résztvevő papírja), de a papírfelhasználás sincs jó hatással a környezetre.
 ## Követelménylista
 
 ## Jelenlegi üzleti folyamatok modellje
