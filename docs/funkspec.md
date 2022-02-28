@@ -19,7 +19,7 @@ Az EKKE Sporttudomány Intézet szeretné átláthatóbbá és könnyebben kezel
 ## Jelenlegi üzleti folyamatok modellje
 Manapság az adminisztratív feladatok többsége online, interaktív felületeken keresztül történik, melyek átláthatóbbak és egyszerűbbek a hagyományos régimódinál. A mai rohanó világban sok mindenkinek nincs ideje egy adott helyre bemenni, esetlegesen sorban állni, ahhoz, hogy kitöltsön egy formanyomtatványt. Hosszú távon kifizetődőbb megoldás egy webes vagy applikációs megoldásba beruházni, mint az állandó nyomdai és nyomtatási költséget kifizetni.
 ## Igényelt üzleti folyamatok modellje
-
+Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy olyan programot fogunk létrehozni, mely a megállja a helyét a felgyorsult 21. század világában. Az adminisztrátoroknak egyszerűbb dolga lesz, mert pár kattintással új eseményt tudnak létrehozni, illetve a meglevőket nyomon követni. A vendégeknek is sokkal kényelmesebb lesz, mivel bárhonnan elérhetik az események listáját és regisztrálhatnak is rá a mobiljukról.
 ## Használati esetek
 
 ## Képernyő tervek
