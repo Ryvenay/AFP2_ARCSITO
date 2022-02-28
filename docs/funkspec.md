@@ -17,7 +17,7 @@ Az EKKE Sporttudomány Intézet szeretné átláthatóbbá és könnyebben kezel
 | Statisztika | K8 | Résztvevők adatai | 1.0 | Könnyen kinyerhető vendég adatok. Ezeknek importálása Excel táblázat kezelő által használt formátumba (xlsx stb.). |
 | Modifikáció | K9 | Vendég adatmódosítás | 1.0 | A vendég az adminisztrátorhoz tud fordulni, bármilyen adatmódosítási kéréssel.  |
 ## Jelenlegi üzleti folyamatok modellje
-
+Manapság az adminisztratív feladatok többsége online, interaktív felületeken keresztül történik, melyek átláthatóbbak és egyszerűbbek a hagyományos régimódinál. A mai rohanó világban sok mindenkinek nincs ideje egy adott helyre bemenni, esetlegesen sorban állni, ahhoz, hogy kitöltsön egy formanyomtatványt. Hosszú távon kifizetődőbb megoldás egy webes vagy applikációs megoldásba beruházni, mint az állandó nyomdai és nyomtatási költséget kifizetni.
 ## Igényelt üzleti folyamatok modellje
 
 ## Használati esetek
