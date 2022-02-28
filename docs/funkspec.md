@@ -21,7 +21,8 @@ Manapság az adminisztratív feladatok többsége online, interaktív felületek
 ## Igényelt üzleti folyamatok modellje
 Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy olyan programot fogunk létrehozni, mely a megállja a helyét a felgyorsult 21. század világában. Az adminisztrátoroknak egyszerűbb dolga lesz, mert pár kattintással új eseményt tudnak létrehozni, illetve a meglevőket nyomon követni. A vendégeknek is sokkal kényelmesebb lesz, mivel bárhonnan elérhetik az események listáját és regisztrálhatnak is rá a mobiljukról.
 ## Használati esetek
-
+**ADMINISZTRÁTOR:** Az adminisztrátor(ok)nak külön átlátható felület lesz biztosítva a gördülékeny munka érdekében. Teljes körű hozzáférésük lesz a rendszer minden részéhez. Az események menedzselésén kívül, módosítani tudják szükség esetén a vendégek adatait és jelszavát. 
+**VENDÉG:** A vendég szerepkörnek regisztráció illetve bejelentkezés után hozzáférése lesz az események listájához, amit az adminisztrátorok már felvittek a rendszerbe. Később pedig az esemény helyszínén, az eseményhez generált kód alapján becsekkolni.  
 ## Képernyő tervek
 
 ![Mobil Főképernyő](img/mobil_fooldal.png)
