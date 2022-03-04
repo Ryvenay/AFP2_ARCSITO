@@ -25,9 +25,32 @@ Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy 
 **VENDÉG:** A vendég szerepkörnek regisztráció illetve bejelentkezés után hozzáférése lesz az események listájához, amit az adminisztrátorok már felvittek a rendszerbe. Később pedig az esemény helyszínén, az eseményhez generált kód alapján becsekkolni.  
 ## Képernyő tervek
 
-![Mobil Főképernyő](img/mobil_fooldal.png)
+### Webes adminisztrációs felület
 
-![Mobil Regisztráció Hallgatóknak](img/mobil_reg_hallgato.png)
+### Mobil alkalmazás
+
+| ![Mobil alkalmazás kezdő képernyője](img/mobil_fooldal.png) | ![Regisztráció hallgatóknak](img/mobil_reg_hallgato.png) |
+|:--:|:--:|
+| **Mobil alkalmazás kezdő képernyője** | **Regisztráció hallgatóknak**  |
+
+| ![Regisztráció dolgozóknak](img/mobil_reg_dolgozo.png) | ![Regisztráció külsősöknek](img/mobil_reg_kulsos.png) |
+|:--:|:--:|
+| **Regisztráció dolgozóknak** | **Regisztráció külsősöknek**  |
+
+
+| ![Regisztráció dolgozóknak](img/mobil_reg_dolgozo.png) | ![Regisztráció külsősöknek](img/mobil_reg_kulsos.png) |
+|:--:|:--:|
+| **Regisztráció dolgozóknak** | **Regisztráció külsősöknek**  |
+
+| ![Rendezvény lista (1. változat)](img/mobil_events_variant1.png) | ![Rendezvény lista (2. változat)](img/mobil_events_variant2.png) |
+|:--:|:--:|
+| **Rendezvény lista (1. változat)** | **Rendezvény lista (2. változat)**  |
+
+
+| ![Rendezvény lista (3. változat)](img/mobil_events_variant3.png) |  |
+|:--:|:--:|
+| **Rendezvény lista (3. változat)** |  |
+
 
 ## Forgatókönyv
 A események sorrendje ideális esetben a következőképpen zajlik: Az adminisztrátor(ok) felviszi(k) az eseményeket, melyhez a vendégek hozzáférnek listázva. Majd egy konkrét eseményt kiválasztva a pontos részleteket elolvasva vagy visszalépnek az essemények felsorolásához vagy az elkövetkezendő esemény helyszínén, a vendég beolvasva az eseményhez generált QR kódok, jelzi, hogy megérkezett, az applikáció pedig jó szórakozást kíván neki.
