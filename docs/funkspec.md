@@ -54,9 +54,9 @@ Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy 
 | **Rendezvény lista (1. változat)** | **Rendezvény lista (2. változat)**  |
 
 
-| ![Rendezvény lista (3. változat)](img/mobil_events_variant3.png) |  |
+| ![Rendezvény lista (3. változat)](img/mobil_events_variant3.png) | ![Rendezvény részletek](img/mobil_event_details.png) |
 |:--:|:--:|
-| **Rendezvény lista (3. változat)** |  |
+| **Rendezvény lista (3. változat)** | **Rendezvény részletek** |
 
 
 ## Forgatókönyv
