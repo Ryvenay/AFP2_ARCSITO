@@ -27,6 +27,10 @@ Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy 
 
 ### Webes adminisztrációs felület
 
+| ![Admin felület drótváza](img/web-wireframe.png) | 
+|:--:|
+| **Adminisztrációs felület (drótváz)** |
+
 ### Mobil alkalmazás
 
 | ![Mobil alkalmazás kezdő képernyője](img/mobil_fooldal.png) | ![Regisztráció hallgatóknak](img/mobil_reg_hallgato.png) |
