@@ -23,6 +23,9 @@ Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy 
 ## Használati esetek
 **ADMINISZTRÁTOR:** Az adminisztrátor(ok)nak külön átlátható felület lesz biztosítva a gördülékeny munka érdekében. Teljes körű hozzáférésük lesz a rendszer minden részéhez. Az események menedzselésén kívül, módosítani tudják szükség esetén a vendégek adatait és jelszavát. 
 **VENDÉG:** A vendég szerepkörnek regisztráció illetve bejelentkezés után hozzáférése lesz az események listájához, amit az adminisztrátorok már felvittek a rendszerbe. Később pedig az esemény helyszínén, az eseményhez generált kód alapján becsekkolni.  
+
+![Use Case diagram](img/usecase.png)
+
 ## Képernyő tervek
 
 ### Webes adminisztrációs felület

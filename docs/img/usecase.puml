@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+
+actor admin as "Adminisztrátor"
+actor guest as "Vendég"
+
+rectangle "Adminisztrációs felület" {
+  (createEvent) as "Események létrehozása"
+  (modifyEvent) as "Események módosítása"
+  (modifyGuestData) as "Vendég adatok módosítása"
+
+  admin --> createEvent
+  admin --> modifyEvent
+  admin --> modifyGuestData
+}
+
+rectangle "Mobil applikáció" {
+  (listEvents) as "Események listázása"
+  (registerForEvent) as "Jelentkezés eseményre"
+  (checkinToEvent) as "Becsekkolás az eseményre a helyszínen QR-kóddal"
+
+  guest --> listEvents
+  guest --> registerForEvent
+  guest --> checkinToEvent
+  
+  registerForEvent .> listEvents : include
+  checkinToEvent .> listEvents : include
+}
+
+@enduml
