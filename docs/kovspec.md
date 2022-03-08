@@ -14,3 +14,20 @@ Két jogosultsági kört várunk el a projektben. Egy általános felhasználót
 
 ## Jelenlegi üzleti folyamatok modellje
 Sajnos jelenleg egy elavult és nem túl fenntartható rendszert üzemeltetünk. A papíralapú regisztráció tűnhet a legegyszerűbb megoldásnak egy mezei külső szemlélőnek, azonban ez nem így van. A környezetre káros, sok hibalehetőséget magában hordozó szisztéma ez. A papír és a nyomdai költség permanens. Állandó kiadás, mely, ha utána számolunk, hosszú távon sokkal költségesebb, mint egy új innovatív megoldásba befektetni. Ám ez csak az egyik árnyoldala. A másik, mint már említettem a hibalehetőségeben rejlik. Mivel emberek töltetik ki a regisztrációs lapokat a résztvevőkkel így nem kizárható az a rizikó faktor, hogy valami olyan hiba csúszik a rendszerbe, ami egy elektronikus megoldással kiküszöbölhető lehetne. Példának okáért tegyük fel, hogy a kedves vendég kézírása nem olyan jól olvasható. Vagy esetleg elkeverik a papír stb. Az előbbiekben szó volt a pénzről, az esetleges tévedésekről, de egy harmadik tényező is ugyanolyan fontos. Ez nem más, mint az idő. Egy ilyen regisztráció, ha papíralapú rendkívül időigényes tud lenni és számunkra nem mindegy, hogy dolgozóinkat mennyire és mennyi időre terheljük le. Arról nem is beszélve, hogy ha a vendégeknek véletlen nem jó a regisztrációk időpontja, akár az eseményről is lemaradhatnak.
+
+## Igényelt üzleti folyamatok modellje
+
+## Követelménylista 
+| MODUL | ID | NÉV  | V. | LEÍRÁS |
+|--|--|--|--|--|
+| Jogosultság | K1 | Regisztráció | 1.0 | A felhasználó 3 opció alapján regisztrálhat, (hallgató, dolgozó, külsős). Ezek alapján kell megadni az adatait. **Hallgató:** név, neptun kód, email cím. **Dolgozó:** név, email cím, szervezeti egység. **Külsős:** név, email cím, lakóhely. Mindegyik esetben kell megadni egy jelszót is, mely tárolása kódolva történik az adatbázisban. Hibásan bevitt adatok esetén hibaüzenetet kap a felhasználó (pl.: a követelményeknek nem megfelelő jelszó.)  |
+| Jogosultság | K2 | Bejelentkezési felület | 1.0 | A felhasználó e-mail cím és jelszó segítségével bejelentkezhet, mely, ha nem megfelelő, akkor hibaüzentet kap. |
+| Jogosultság | K3 | Jogosultsági szintek | 1.0 | **Adminisztrátor:** QR-kód létrehozása eseményekhez. Adatok exportálása. **Vendég:** Az esemény adatinak lekérdezése és QR kódok beolvasása. |
+| Jogosultság | K4 | Adminisztrációs felület | 1.0 | Az adminisztrátoroknak fenntartott felület, ahonnan ki tudják exportálni az adatokat és QR kódokat generálni az eseményekhez. |
+| Felület | K5 | Események | 1.0 | Felsorolva kell megjelennie az összes esemény nevének és időpontjának. |
+| Felület | K6 | Egy esemény részletei | 1.0 | Az esemény pontos adatainak megjelenítése (dátum, időtartam, helyszín stb.) és beolvasás és "Részt szeretnék venni fül" megjelenítése. |
+| Felület | K7 | Esemény QR kód beolvasásának visszaigazolása | 1.0 | Egy visszaigazoló felület, amely megköszönni a részvételt és jó szórakozást kíván az eseményhez. |
+| Statisztika | K8 | Résztvevők adatai | 1.0 | Könnyen kinyerhető vendég adatok. Ezeknek exportálása Excel táblázat kezelő által használt formátumba (xlsx stb.). |
+| Modifikáció | K9 | Vendég adatmódosítás | 1.0 | A vendég az adminisztrátorhoz tud fordulni, bármilyen adatmódosítási kéréssel.  |
+
+## Fogalomtár
