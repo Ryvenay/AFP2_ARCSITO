@@ -31,3 +31,9 @@ Sajnos jelenleg egy elavult és nem túl fenntartható rendszert üzemeltetünk.
 | Modifikáció | K9 | Vendég adatmódosítás | 1.0 | A vendég az adminisztrátorhoz tud fordulni, bármilyen adatmódosítási kéréssel.  |
 
 ## Fogalomtár
+- **QR kód**: Egy 2-dimenziós vonalkód, melyet a legtöbb mobiltelefon kamerájával is beolvashatunk.
+- **applikáció**: Megadott célra tervezett számítógépes program.
+- **applikációs áruház**: Platformhoz kötött webáruház, melyen szoftvereket lehet letölteni és vásárolni.
+- **Android**: Nyílt forráskódú okostelefonos operációs rendszer.
+- **iOS**: Az Apple cég okostelefonjainak operációs rendszere.
+- **fájl kiterjesztés**: ezek hordozzák azt az információt a számítógép számára, hogy mely alkalmazás hozta létre vagy képes megnyitni a fájlt, és mely ikont szükséges használni hozzá.
