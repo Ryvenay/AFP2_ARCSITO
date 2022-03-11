@@ -1,0 +1,23 @@
+services:
+  php-apache:
+    container_name: php-apache
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - 8000:80
+    depends_on:
+      - db
+  db:
+    container_name: db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: sport_events
+      MYSQL_USER: ekke-sporttudomanyi
+      MYSQL_PASSWORD: secret
+    ports:
+      - 9906:3306
