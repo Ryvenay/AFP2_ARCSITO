@@ -22,6 +22,20 @@
 
 ## Funkcionális terv
 
+### Admin
+- Új rendezvényt írhat ki
+- Meglévő rendezvény adatait módosíthatja
+- Meglévő rendezvényt törölhet
+- Vendég adatait módosíthatja
+- Megtekintheti a rendezvényen részt venni szándékozó vendégek számát
+- Exportálhatja a rendezvény adatokat (xlsx, csv)
+
+### Vendég
+- Regisztrálhat hallgatóként, dolgozóként vagy külsős vendégként
+- Megtekintheti az aktuális időszakban meghirdetett rendezvények listáját
+- Jelezheti egy eseményen a részvételi szándékát
+- QR-kódot beolvasva a helyszínen, jelezheti, hogy megjelent
+
 ## Fizikai környezet
 
 ## Absztrakt domain modell
