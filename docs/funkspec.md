@@ -45,19 +45,9 @@ Azért, hogy megkönnyítsük a dolgozók és a résztvevők feladatát is, egy 
 |:--:|:--:|
 | **Regisztráció dolgozóknak** | **Regisztráció külsősöknek**  |
 
-
-| ![Regisztráció dolgozóknak](img/mobil_reg_dolgozo.png) | ![Regisztráció külsősöknek](img/mobil_reg_kulsos.png) |
+| ![Rendezvény lista](img/mobil_events_list.png) | &nbsp; |
 |:--:|:--:|
-| **Regisztráció dolgozóknak** | **Regisztráció külsősöknek**  |
-
-| ![Rendezvény lista (1. változat)](img/mobil_events_variant1.png) | ![Rendezvény lista (2. változat)](img/mobil_events_variant2.png) |
-|:--:|:--:|
-| **Rendezvény lista (1. változat)** | **Rendezvény lista (2. változat)**  |
-
-
-| ![Rendezvény lista (3. változat)](img/mobil_events_variant3.png) | ![Rendezvény részletek](img/mobil_event_details.png) |
-|:--:|:--:|
-| **Rendezvény lista (3. változat)** | **Rendezvény részletek** |
+| **Rendezvény lista** | &nbsp; |
 
 
 ## Forgatókönyv
