@@ -6,10 +6,6 @@
 
 ### Szerepkörök
 
-Scrum master: ???
-
-Product owner: ???
-
 Back-end fejlesztők:
 - Csicsman Dominika
 - D.Tóth Bátor
@@ -38,27 +34,25 @@ Front-end fejlesztők:
 | Modifikáció | K9 | Vendég adatmódosítás | 1.0 | A vendég az adminisztrátorhoz tud fordulni, bármilyen adatmódosítási kéréssel.  |
 
 ## Funkcionális terv
+A rendszerben két szerepkört különböztetünk meg: Admin és Vendég.
 
 ### Admin
 - Új rendezvényt írhat ki
 - Meglévő rendezvény adatait módosíthatja
 - Meglévő rendezvényt törölhet
-- Vendég adatait módosíthatja
-- Megtekintheti a rendezvényen részt venni szándékozó vendégek számát
+- Vendég adatait/jelszavát módosíthatja
 - Exportálhatja a rendezvény adatokat (xlsx, csv)
 
 ### Vendég
 - Regisztrálhat hallgatóként, dolgozóként vagy külsős vendégként
 - Megtekintheti az aktuális időszakban meghirdetett rendezvények listáját
-- Jelezheti egy eseményen a részvételi szándékát
 - QR-kódot beolvasva a helyszínen, jelezheti, hogy megjelent
 
 ## Fizikai környezet
-
 Az alkalmazás Android, iOS és web platformra készül. Használatához internetkapcsolat szükséges.
-A mobil alkalmazás QR-kód funkciójához kamera
+A mobil alkalmazás QR-kód funkciója csak kamerával működik.
 
-## Absztrakt domain modell
+### Fejlesztői eszközök
 
 ## Architekturális terv
 
@@ -70,4 +64,4 @@ A mobil alkalmazás QR-kód funkciójához kamera
 
 ## Telepítési terv
 
-## Karbantartási terv
+### Back-end
