@@ -10,6 +10,7 @@ A projekt célja egy mindenképpen olyan rendszer lenne, ami mind a két fél é
 
 ## Funkcionális követelmények
 Két jogosultsági kört várunk el a projektben. Egy általános felhasználót, akik a leendő vendégeink és adminisztrátorokat, akik menedzselni tudják az eseményeket és hozzáférnek a felhasználók adataihoz. A vendég képes legyen megtekinteni az események összeségét, egy konkrét rendezvény pontos adatait. Tudja leolvasni az esemény helyszínén az ahhoz tartozó QR kódot a telefonja kamerájának segítségével. Az adminisztrátor hozhasson létre új eseményt, törölhesse vagy éppen módosíthassa a már meglévőeket. Generálhasson QR kódokat és tudja kimenteni az adatokat.
+
 ![Use Case diagram](img/usecase.png)
 
 ## Jelenlegi üzleti folyamatok modellje
