@@ -4,7 +4,7 @@
 
 ## Projektterv
 
-## Szerepkörök
+### Szerepkörök
 
 Scrum master: ???
 
@@ -54,6 +54,9 @@ Front-end fejlesztők:
 - QR-kódot beolvasva a helyszínen, jelezheti, hogy megjelent
 
 ## Fizikai környezet
+
+Az alkalmazás Android, iOS és web platformra készül. Használatához internetkapcsolat szükséges.
+A mobil alkalmazás QR-kód funkciójához kamera
 
 ## Absztrakt domain modell
 
