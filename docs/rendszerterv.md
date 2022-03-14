@@ -60,16 +60,6 @@ A mobil alkalmazás QR-kód funkciójához kamera
 
 ## Absztrakt domain modell
 
-| Név | Típus |
-| - | - |
-| Visual Studio Code | fejlesztőkörnyezet |
-| Docker | konténer/virtualizáció |
-| Postman | REST kliens |
-| React JS | keretrendszer |
-| React Native | keretrendszer | 
-| PHPMyAdmin | adatbázis kliens |
-| JetBrains Datagrip | adatbázis kliens |
-
 ## Architekturális terv
 
 ## Adatbázis terv
