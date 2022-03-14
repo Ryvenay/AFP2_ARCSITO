@@ -112,3 +112,17 @@ A mobil applikáció React Native keretrendszer használatával készül el, íg
 ## Telepítési terv
 
 ### Back-end
+A back-endhez Docker Image is készül, így az egyszerűen telepíthető felhő alapú tárhely szolgáltatóra az image feltöltésével.
+
+Ennek mellőzése esetén, szükség lesz egy adatbázis szerverre, melyen MySQL 8.0 fut. Ezen létrehozzuk az alkalmazáshoz tartozó adatbázist, és a hozzá tartozó táblákat.
+Telepítünk egy szervert, melyen PHP 8.0-t és Apache webszervert konfigurálunk, és környezeti változókon keresztül beállítjuk az adatbázis-hozzáférést.
+Végül a program PHP kódját az Apache szerver webtárhely könyvtárába (pl. `/var/www/` vagy `/var/www/html`) másoljuk, majd az Apache szolgáltatást újrainditjuk.
+
+### Webes alkalmazás
+A webapplikáció telepítésének előfeltétele a Node.js telepítése, amit pl. Ubuntu Serveren az `apt install nodejs` paranccsal tehetünk meg.
+Az alkalmazás forráskódját elhelyezzük a szerveren egy tetszőleges könyvtárba, majd abban a könyvtárban kiadjuk az `npm install` parancsot, majd az `npm start` paranccsal elindítjuk a Node szervert.
+
+### Mobil alkalmazás
+A felhasználók számára az alkalmazás a Play Store-ból (Android), illetve az App Store-ból (iOS) ingyenesen letölthető lesz. Egyszerűen megkeresik az alkalmazás oldalát a telefonjuk operációs rendszéhez tartozó szoftveráruházban, és a "Telepítés" gombra kattintva installálják az applikációt.
+
+A fejlesztés során az APK fájlt az Android Developer Kit segítségével telepítjük a teszt eszközre.
