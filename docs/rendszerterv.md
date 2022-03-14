@@ -53,6 +53,17 @@ Az alkalmazás Android, iOS és web platformra készül. Használatához interne
 A mobil alkalmazás QR-kód funkciója csak kamerával működik.
 
 ### Fejlesztői eszközök
+| Név                | Típus                           |
+| ------------------ | ------------------------------- |
+| Visual Studio Code | fejlesztőkörnyezet              |
+| Docker             | konténerizációs platform        |
+| Postman            | REST kliens                     |
+| React JS           | webes keretrendszer             |
+| React Native       | mobil keretrendszer             |
+| Bootstrap          | CSS keretrendszer               |
+| PHPMyAdmin         | adatbázis kliens                |
+| JetBrains DataGrip | adatbázis kliens                |
+| Figma              | web- és mobil design szerkesztő |
 
 ## Architekturális terv
 
