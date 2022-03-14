@@ -56,6 +56,42 @@ A mobil alkalmazás QR-kód funkciója csak kamerával működik.
 
 ## Architekturális terv
 
+### Backend
+A rendszerhez szükség van egy adatbázis szerverre, jelen esetben a MySQL-t használjuk.
+A kliens oldali programokat egy PHP alapú REST API szolgálja ki, ez csatlakozik az adatbázis szerverhez.
+A kliensekkel JSON objektumokkal kommunikál.
+
+#### REST végpontok
+| Erőforrás         | Method   | URL                | Eljárás                 |
+| ----------------- | -------- | ------------------ | ----------------------- |
+| Rendezvény        | `GET`    | `/events`          | Összes lekérdezése      |
+| Rendezvény        | `GET`    | `/events/{id}`     | Lekérdezés azonosítóval |
+| Rendezvény        | `POST`   | `/events`          | Új létrehozása          |
+| Rendezvény        | `PUT`    | `/events/{id}`     | Módosítás               |
+| Rendezvény        | `DELETE` | `/events/{id}`     | Törlés                  |
+| Sportág           | `GET`    | `/sports`          | Összes lekérdezése      |
+| Sportág           | `GET`    | `/sports/{id}`     | Lekérdezés azonosítóval |
+| Sportág           | `POST`   | `/sports`          | Új létrehozása          |
+| Sportág           | `PUT`    | `/sports/{id}`     | Módosítás               |
+| Sportág           | `DELETE` | `/sports/{id}`     | Törlés                  |
+| Vendég            | `GET`    | `/guests`          | Összes lekérdezése      |
+| Vendég            | `GET`    | `/guests/{id}`     | Lekérdezés azonosítóval |
+| Vendég            | `POST`   | `/guests`          | Új létrehozása          |
+| Vendég            | `PUT`    | `/guests/{id}`     | Módosítás               |
+| Vendég            | `DELETE` | `/guests/{id}`     | Törlés                  |
+| Vendég típus      | `GET`    | `/guest_types`     | Összes lekérdezése      |
+| Intézményi egység | `GET`    | `/department`      | Összes lekérdezése      |
+| Intézményi egység | `GET`    | `/department/{id}` | Lekérdezés azonosítóval |
+| Intézményi egység | `POST`   | `/department`      | Új létrehozása          |
+| Intézményi egység | `PUT`    | `/department/{id}` | Módosítás               |
+| Intézményi egység | `DELETE` | `/department/{id}` | Törlés                  |
+
+### Adminisztrációs oldal
+A web alkalmazás React JS keretrendszer használatával készül el.
+
+### Mobil alkalmazás
+A mobil applikáció React Native keretrendszer használatával készül el, így egyetlen alkalmazás kiadható Androidra és iOS-re is.
+
 ## Adatbázis terv
 
 ## Implementációs terv
