@@ -4,6 +4,23 @@
 
 ## Projektterv
 
+## Szerepkörök
+
+Scrum master: ???
+
+Product owner: ???
+
+Back-end fejlesztők:
+- Csicsman Dominika
+- D.Tóth Bátor
+- Árvai Dániel
+
+Front-end fejlesztők:
+- Árvai Dániel
+- D.Tóth Bátor
+
+### Ütemterv
+
 ## Üzleti folyamatok modellje
 
 ## Követelmények
