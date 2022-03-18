@@ -104,6 +104,7 @@ A web alkalmazás React JS keretrendszer használatával készül el.
 A mobil applikáció React Native keretrendszer használatával készül el, így egyetlen alkalmazás kiadható Androidra és iOS-re is.
 
 ## Adatbázis terv
+![ER diagram](img/database.png)
 
 ## Implementációs terv
 
