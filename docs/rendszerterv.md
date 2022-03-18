@@ -107,6 +107,9 @@ A mobil applikáció React Native keretrendszer használatával készül el, íg
 ![ER diagram](img/database.png)
 
 ## Implementációs terv
+Az adminisztrációs felület egy React JS alapú webalkalmazás lesz, amelyhez a Bootstrap nevű CSS keretrendszert is felhasználjuk. Az alkalmazás a Back-end részen futó REST szolgáltatás metódusait használja fel.
+
+Az mobil alkalmazás a React Native keretrendszert használja, melyet Android és iOS operációs rendszerekre egyaránt kiadhatunk, így nem szükséges 2 különböző applikációt fejleszteni. Az alkalmazás a Back-end részen futó REST szolgáltatás metódusait használja fel.
 
 ## Tesztterv
 
