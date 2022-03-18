@@ -13,6 +13,18 @@ Két jogosultsági kört várunk el a projektben. Egy általános felhasználót
 
 ![Use Case diagram](img/usecase.png)
 
+## Rendszerre vonatkozó törvények, szabványok, ajánlások
+
+A rendszer felhasználói adatokat tárol, amit az Európai Unió területén a GDPR (General Data Protection Regulation) nevű rendelet szabályozza. E rendelt alapján az érintett felhasználók jogai a következők:
+- Átlátható tájékoztatáshoz való jog
+- Hozzáféréshez való jog
+- Helyesbítéshez való jog
+- Törléshez és elfeledtetéshez való jog
+- Korlátozáshoz való jog
+- Adathordozhatósághoz való jog
+- Tiltakozáshoz való jog
+- Automatikus döntéshozatal elutasításához való jog
+
 ## Jelenlegi üzleti folyamatok modellje
 Sajnos jelenleg egy elavult és nem túl fenntartható rendszert üzemeltetünk. A papíralapú regisztráció tűnhet a legegyszerűbb megoldásnak egy külső szemlélő számára, azonban ez nem így van. A környezetre káros, sok hibalehetőséget magában hordozó szisztéma ez. A papír és a nyomdai költség permanens. Állandó kiadás, mely, ha utána számolunk, hosszú távon sokkal költségesebb, mint egy új innovatív megoldásba befektetni. Ám ez csak az egyik árnyoldala. A másik, mint már említettem a hibalehetőségeben rejlik. Mivel emberek töltetik ki a regisztrációs lapokat a résztvevőkkel így nem kizárható az a rizikó faktor, hogy valami olyan hiba csúszik a rendszerbe, ami egy elektronikus megoldással kiküszöbölhető lehetne. Példának okáért tegyük fel, hogy a kedves vendég kézírása nem olyan jól olvasható. Vagy esetleg elkeverik a papír stb. Az előbbiekben szó volt a pénzről, az esetleges tévedésekről, de egy harmadik tényező is ugyanolyan fontos. Ez nem más, mint az idő. Egy ilyen regisztráció, ha papíralapú rendkívül időigényes tud lenni és számunkra nem mindegy, hogy dolgozóinkat milyen mértékben és mennyi időre terheljük le. Arról nem is beszélve, hogy ha a vendégeknek véletlen nem jó a regisztrációk időpontja, akár az eseményről is lemaradhatnak.
 
