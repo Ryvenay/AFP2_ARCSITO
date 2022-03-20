@@ -153,3 +153,8 @@ Az alkalmazás forráskódját elhelyezzük a szerveren egy tetszőleges könyvt
 A felhasználók számára az alkalmazás a Play Store-ból (Android), illetve az App Store-ból (iOS) ingyenesen letölthető lesz. Egyszerűen megkeresik az alkalmazás oldalát a telefonjuk operációs rendszéhez tartozó szoftveráruházban, és a "Telepítés" gombra kattintva installálják az applikációt.
 
 A fejlesztés során az APK fájlt az Android Developer Kit segítségével telepítjük a teszt eszközre.
+
+## Karbantartási terv
+Az alkalmazás üzelmetétese és karbantartása magába foglalja a programhibák elhárítását. Az alkalmazás bővítési lehetőségét fenntartjuk. Belső illetve egyéb igények, környezeti feltételek változása esetén kiterjed a program- és állomány modosításra is.
+Mobil alkalmazásainkat ellenőrizni kell, hogy az aktuális Android illet iOS verziókkal kompatibilisek legyenek.
+Mivel a weboldal teljesen alapjaiból felépített webhely ezért a felhasználók által küldött visszajelzésekre majd külön helyet tartunk fent az oldalon. Ezt az oldalon megtalálható e-mail címen keresztül fogja a weboldal üzemeltetője megkapni.
