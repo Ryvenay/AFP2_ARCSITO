@@ -33,6 +33,7 @@ Front-end fejlesztők:
 | Mobil alkalmazás (Android) | Felület megtervezése | 3 | 7 | 7 | 6 | 1 |
 | | Megvalósítás | 3 | 14 | 14 | 0 | 14 |
 ## Üzleti folyamatok modellje
+![](img/usecase.png)
 
 ## Követelmények
 
