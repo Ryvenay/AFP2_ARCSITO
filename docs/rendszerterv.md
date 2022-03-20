@@ -18,7 +18,20 @@ Front-end fejlesztők:
 - D.Tóth Bátor
 
 ### Ütemterv
-
+| Funkció / Story | Feladat / Task| Prioritás| Becslés | Aktuális becslés|Eltelt idő|Hátralévő idő|
+|---|---|---|---|---|---|---|
+| Követelmény specifikáció||0|7|7|7|0|
+| Funkcionális specifikáció||0|7|7|7|0|
+| Rendszerterv||0|7|7|7|0|
+| Adattárolás|Adatmodell megtervezése|0|4|4|0|4|
+| |Adatbázis megvalósítása a szerveren|1|2|2|0|2|
+| Rendszer alapja | REST API megvalósítása | 1 | 18 | 18 | 0 | 18 |
+| Adminisztrációs felület | Felület megtervezése | 2 | 7 | 7 | 1 | 6 |
+| | Megvalósítás | 2 | 14 | 14 | 0 | 14 |
+| Mobil alkalmazás (iOS) | Felület megtervezése | 3 | 7 | 7 | 6 | 1 |
+| | Megvalósítás | 3 | 14 | 14 | 0 | 14 |
+| Mobil alkalmazás (Android) | Felület megtervezése | 3 | 7 | 7 | 6 | 1 |
+| | Megvalósítás | 3 | 14 | 14 | 0 | 14 |
 ## Üzleti folyamatok modellje
 
 ## Követelmények
