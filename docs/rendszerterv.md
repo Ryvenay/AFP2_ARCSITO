@@ -128,7 +128,14 @@ Az adminisztrációs felület egy React JS alapú webalkalmazás lesz, amelyhez 
 Az mobil alkalmazás a React Native keretrendszert használja, melyet Android és iOS operációs rendszerekre egyaránt kiadhatunk, így nem szükséges 2 különböző applikációt fejleszteni. Az alkalmazás a Back-end részen futó REST szolgáltatás metódusait használja fel.
 
 ## Tesztterv
+A projekt elkészítése során folyamatos tesztelésre van szükség, melynek célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése.
+Tesztelni kell a back-end részt, az adminisztrátori funkciók és a két mobil applikáció működését. 
+Tesztelni kell a dizájn minden elemét.
+Tesztelni kell az adatbázis megfelelő működését, értjük ez alatt az adatok helyes tárolását stb.
 
+Alfa teszt: Meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. Mobil appok tesztelése. A tesztet a fejlesztők végzik.
+
+Béta teszt: Ezt a tesztet nem a fejlesztők végzik. Böngészőkkel való kompatibilitásának tesztelése. Mobil appok tesztelése.
 ## Telepítési terv
 
 ### Back-end
