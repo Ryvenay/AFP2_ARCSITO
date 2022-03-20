@@ -24,7 +24,23 @@ A rendszer felhasználói adatokat tárol, amit az Európai Unió területén a 
 - Adathordozhatósághoz való jog
 - Tiltakozáshoz való jog
 - Automatikus döntéshozatal elutasításához való jog
-
+Egy weboldalnak:
+- Könnyen érthetőnek és használhatónak kell lennie.
+- Logikus felépítsűnek kell lennie a felhasználók számára.
+- Használja az ipar legjobban bevált folyamatait.
+- Stílusok használata, ami átláthatóvá teszi az egyes oldalak részleteit, ezen belül:
+- Hibaüzenetek megjelenítése jól látható helyen és stílusban
+- Olyan panelek létrehozása, ami az alapvető felhasználók számára nem látható, kizárólag a weboldal üzemeltetői férnek hozzá.
+Kompatibilis böngészők:
+- Google Chrome
+- Mozilla Firefox
+- Internet Explorer
+Adatkezelési nyilatkozat:
+Az Adatkezelési ‌Nyilatkozat kialakítása során figyelembe vettük a vonatkozó hatályos jogszabályokat, illetve a fontosabb nemzetközi ajánlásokat. Ezekre megfelel az alábbi jogszabályoknak:
+Információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény;
+Az elektronikus ‌hírközlésről szóló 2003. évi C. törvény;
+Az elektronikus kereskedelemről szóló 2001. évi CVIII. törvény előírásainak;
+Az "Online Privacy Alliance" ajánlásainak.
 ## Jelenlegi üzleti folyamatok modellje
 Sajnos jelenleg egy elavult és nem túl fenntartható rendszert üzemeltetünk. A papíralapú regisztráció tűnhet a legegyszerűbb megoldásnak egy külső szemlélő számára, azonban ez nem így van. A környezetre káros, sok hibalehetőséget magában hordozó szisztéma ez. A papír és a nyomdai költség permanens. Állandó kiadás, mely, ha utána számolunk, hosszú távon sokkal költségesebb, mint egy új innovatív megoldásba befektetni. Ám ez csak az egyik árnyoldala. A másik, mint már említettem a hibalehetőségeben rejlik. Mivel emberek töltetik ki a regisztrációs lapokat a résztvevőkkel így nem kizárható az a rizikó faktor, hogy valami olyan hiba csúszik a rendszerbe, ami egy elektronikus megoldással kiküszöbölhető lehetne. Példának okáért tegyük fel, hogy a kedves vendég kézírása nem olyan jól olvasható. Vagy esetleg elkeverik a papír stb. Az előbbiekben szó volt a pénzről, az esetleges tévedésekről, de egy harmadik tényező is ugyanolyan fontos. Ez nem más, mint az idő. Egy ilyen regisztráció, ha papíralapú rendkívül időigényes tud lenni és számunkra nem mindegy, hogy dolgozóinkat milyen mértékben és mennyi időre terheljük le. Arról nem is beszélve, hogy ha a vendégeknek véletlen nem jó a regisztrációk időpontja, akár az eseményről is lemaradhatnak.
 
