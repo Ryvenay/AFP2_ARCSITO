@@ -1,7 +1,9 @@
 # Rendszerterv
 
 ## A rendszer célja
-
+A rendszer célja, hogy megkönnyítse a sportrendezvényekre való regisztrációt a résztvevők és adminisztrátorok számára egyaránt. Kiváltja a papír alapú adminisztrációt, ezáltal sokkal környezetkímélőbb megoldást biztosít. A költségeket és az adminisztrációhoz szükséges időt csökkenti.
+A vendégek ingyenesen elérhető mobil applikáción keresztül mindössze egy QR kód beolvasásával tudjanak az eseményre becsekkolni.
+Az admisztrátorok egyszerűen tudjanak adatokat kezelni, módosítani.
 ## Projektterv
 
 ### Szerepkörök
