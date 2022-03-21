@@ -33,7 +33,11 @@ Front-end fejlesztők:
 | Mobil alkalmazás (Android) | Felület megtervezése | 3 | 7 | 7 | 6 | 1 |
 | | Megvalósítás | 3 | 14 | 14 | 0 | 14 |
 ## Üzleti folyamatok modellje
+<<<<<<< Updated upstream
 ![](img/usecase.png)
+=======
+A személyek kik még nincsenek beregiszrálva a weboldalra azok elősször be kell regisztrálnia. Ez után ha a **Vendég** (akár hallgató, dolgozó vagy külsős) annak lehetősége lesz az adott időszakban meghírdetett rendezvényekre való regisztrációra és helyileg egy QR-kód beolvasásával igazolni a megjelenését. Míg ha **Admin** jelentkezet be akkor az egyén újjabb rendezvényeket írhat ki, meglévők adatait módosíthatja vagy törölheti a rendezvényt, az érdeklődők számát megtekintheti és exportálhatja a rendezvény adatait (xlsx, csv). A vendégek adatait módosíthatja.
+>>>>>>> Stashed changes
 
 ## Követelmények
 
@@ -155,6 +159,10 @@ A felhasználók számára az alkalmazás a Play Store-ból (Android), illetve a
 A fejlesztés során az APK fájlt az Android Developer Kit segítségével telepítjük a teszt eszközre.
 
 ## Karbantartási terv
+<<<<<<< Updated upstream
 Az alkalmazás üzelmetétese és karbantartása magába foglalja a programhibák elhárítását. Az alkalmazás bővítési lehetőségét fenntartjuk. Belső illetve egyéb igények, környezeti feltételek változása esetén kiterjed a program- és állomány modosításra is.
 Mobil alkalmazásainkat ellenőrizni kell, hogy az aktuális Android illet iOS verziókkal kompatibilisek legyenek.
 Mivel a weboldal teljesen alapjaiból felépített webhely ezért a felhasználók által küldött visszajelzésekre majd külön helyet tartunk fent az oldalon. Ezt az oldalon megtalálható e-mail címen keresztül fogja a weboldal üzemeltetője megkapni.
+=======
+Mivel a weboldal teljesen alapjaiból felépített webhely ezért a felhasználók által küldött vissza jelzésekre majd külön helyet tartunk fent az oldalon. Ezt az oldalon megtalálható e-mail címen keresztül fogja a weboldal üzemeltetője megkapni.
+>>>>>>> Stashed changes
