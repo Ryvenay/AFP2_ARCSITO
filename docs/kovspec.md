@@ -24,6 +24,7 @@ A rendszer felhasználói adatokat tárol, amit az Európai Unió területén a 
 - Adathordozhatósághoz való jog
 - Tiltakozáshoz való jog
 - Automatikus döntéshozatal elutasításához való jog
+
 Egy weboldalnak:
 - Könnyen érthetőnek és használhatónak kell lennie.
 - Logikus felépítsűnek kell lennie a felhasználók számára.
@@ -31,11 +32,14 @@ Egy weboldalnak:
 - Stílusok használata, ami átláthatóvá teszi az egyes oldalak részleteit, ezen belül:
 - Hibaüzenetek megjelenítése jól látható helyen és stílusban
 - Olyan panelek létrehozása, ami az alapvető felhasználók számára nem látható, kizárólag a weboldal üzemeltetői férnek hozzá.
+
 Kompatibilis böngészők:
 - Google Chrome
 - Mozilla Firefox
 - Internet Explorer
+
 Adatkezelési nyilatkozat:
+
 Az Adatkezelési ‌Nyilatkozat kialakítása során figyelembe vettük a vonatkozó hatályos jogszabályokat, illetve a fontosabb nemzetközi ajánlásokat. Ezekre megfelel az alábbi jogszabályoknak:
 Információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény;
 Az elektronikus ‌hírközlésről szóló 2003. évi C. törvény;
