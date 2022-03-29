@@ -1,8 +1,8 @@
 Table Event as E {
   id int [pk]
-  sport_id  int
-  varchar name [not null]
-  datetime date [not null]
+  sport_id int
+  name varchar [not null]
+  date datetime [not null]
 }
 
 Table Participant as P {
@@ -11,7 +11,7 @@ Table Participant as P {
   email varchar [not null]
   password char(60) [not null]
   neptun_code char(6)
-  department id [ref: > D.id]
+  department_id int [ref: > D.id]
   city varchar
   type int [ref: > PT.id]
 }
@@ -27,8 +27,8 @@ Table Sport as S {
 }
 
 Table Event_Participant as EP {
-  event_id int [ref: < E.id]
-  participant_id int [ref: < P.id]
+  event_id int [ref: > E.id]
+  participant_id int [ref: > P.id]
   
   indexes {
     (event_id, participant_id) [pk]
