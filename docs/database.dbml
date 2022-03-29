@@ -1,0 +1,48 @@
+Table Event as E {
+  id int [pk]
+  sport_id  int
+  varchar name [not null]
+  datetime date [not null]
+}
+
+Table Participant as P {
+  id int  [pk]
+  name varchar [not null]
+  email varchar [not null]
+  password char(60) [not null]
+  neptun_code char(6)
+  department id [ref: > D.id]
+  city varchar
+  type int [ref: > PT.id]
+}
+
+Table ParticipantType as PT {
+  id int [pk]
+  name varchar
+}
+
+Table Sport as S {
+  id int [pk, ref: < E.sport_id]
+  name varchar
+}
+
+Table Event_Participant as EP {
+  event_id int [ref: < E.id]
+  participant_id int [ref: < P.id]
+  
+  indexes {
+    (event_id, participant_id) [pk]
+  }
+}
+
+Table Department as D {
+  id int [pk]
+  name varchar [not null]
+}
+
+Table Administrator as A {
+  id int [pk]
+  name varchar [not null]
+  email varchar [not null]
+  password char(60) [not null]
+}
