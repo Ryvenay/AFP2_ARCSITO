@@ -8,8 +8,6 @@ define('DB_PASS', $_ENV['MYSQL_PASSWORD']);
 define('DB_PORT', $_ENV['MYSQL_PORT']);
 
 class db {
-
-
     function getConnection() {
         $dsn = DB_TYPE.':host='.DB_HOST.':'.DB_PORT.';dbname='.DB_NAME;
         $connection = new PDO($dsn,DB_USER, DB_PASS);
@@ -26,7 +24,7 @@ class db {
         return $success;
     }
 
-    public function query($query, $params = []) {
+    public function select($query, $params = []) {
         $connection = $this->getConnection();
         $stmt = $connection->prepare($query);
         $success = $stmt->execute($params);
