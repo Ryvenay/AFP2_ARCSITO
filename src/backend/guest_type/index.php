@@ -13,9 +13,8 @@ switch ($request_method) {
             header('Content-Type: application/json', false, 200);
             echo json_encode($result);
         }
-            else {
-                header('Content-Type: application/json', false, 404);
-            }
+        else {
+            header('Content-Type: application/json', false, 404);
         }
         break;
     default:
