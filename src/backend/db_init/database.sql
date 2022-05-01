@@ -1,7 +1,7 @@
 use sport_events;
 
 CREATE TABLE `Event` (
-  `id` int PRIMARY KEY,
+  `id` char(36) PRIMARY KEY,
   `sport_id` int,
   `name` varchar(255) NOT NULL,
   `date` datetime NOT NULL

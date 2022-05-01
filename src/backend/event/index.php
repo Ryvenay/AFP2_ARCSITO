@@ -2,6 +2,7 @@
 
 require_once('../database.php');
 require_once('../protected/user.php');
+require_once ('../protected/uuid.php');
 
 $db = new db();
 $request_method = $_SERVER['REQUEST_METHOD'];
@@ -36,7 +37,7 @@ switch ($request_method) {
             if (isset($request['id']) && isset($request['sport_id']) && isset($request['name']) && isset($request['date'])) {
                 
                 $success = $db->execute("INSERT INTO Event VALUES (:id, :sport_id, :name, :date)", [
-                    'id' => $request['id'],
+                    'id' => guidv4(),
                     'sport_id' => $request['sport_id'],
                     'name' => $request['name'],
                     'date' => $request['date'],
