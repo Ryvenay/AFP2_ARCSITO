@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import './css/bootstrap.min.css';
 
 function App() {
   return (
