@@ -61,7 +61,7 @@ switch ($request_method) {
                 header('Content-Type: application/json', false, 401);
             }
             else {
-                if if (isset($request['id']) && isset($request['name'])) {
+                if (isset($request['id']) && isset($request['name'])) {
                     
                     $success = $db->execute("UPDATE Department SET name=:name WHERE id=:id", [
                         'id' => $request['id'],
