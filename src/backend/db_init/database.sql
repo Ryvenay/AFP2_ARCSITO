@@ -8,7 +8,7 @@ CREATE TABLE `Event` (
 );
 
 CREATE TABLE `Participant` (
-  `id` int PRIMARY KEY,
+  `id` int PRIMARY KEY AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` char(60) NOT NULL,
@@ -19,12 +19,12 @@ CREATE TABLE `Participant` (
 );
 
 CREATE TABLE `ParticipantType` (
-  `id` int PRIMARY KEY,
+  `id` int PRIMARY KEY AUTO_INCREMENT,
   `name` varchar(255)
 );
 
 CREATE TABLE `Sport` (
-  `id` int PRIMARY KEY,
+  `id` int PRIMARY KEY AUTO_INCREMENT,
   `name` varchar(255)
 );
 
@@ -35,12 +35,12 @@ CREATE TABLE `Event_Participant` (
 );
 
 CREATE TABLE `Department` (
-  `id` int PRIMARY KEY,
+  `id` int PRIMARY KEY AUTO_INCREMENT,
   `name` varchar(255) NOT NULL
 );
 
 CREATE TABLE `Administrator` (
-  `id` int PRIMARY KEY,
+  `id` int PRIMARY KEY AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` char(60) NOT NULL
