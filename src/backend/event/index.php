@@ -34,7 +34,7 @@ switch ($request_method) {
             header('Content-Type: application/json', false, 401);
         }
         else {
-            if (isset($request['id']) && isset($request['sport_id']) && isset($request['name']) && isset($request['date'])) {
+            if (isset($request['sport_id']) && isset($request['name']) && isset($request['date'])) {
                 
                 $success = $db->execute("INSERT INTO Event VALUES (:id, :sport_id, :name, :date)", [
                     'id' => guidv4(),
@@ -56,7 +56,7 @@ switch ($request_method) {
         }
         break;
     case 'PUT':
-        if (!isset($_GET['id'])) {
+        if (isset($_GET['id'])) {
             $request = json_decode(file_get_contents('php://input'), true);
             if (!isset($_SERVER['PHP_AUTH_USER']) || 
                 !isset($_SERVER['PHP_AUTH_PW']) || 
