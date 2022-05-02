@@ -2,6 +2,9 @@
 
 require_once('../database.php');
 require_once('../protected/user.php');
+require_once('../protected/cors.php');
+
+cors();
 
 $db = new db();
 $request_method = $_SERVER['REQUEST_METHOD'];
