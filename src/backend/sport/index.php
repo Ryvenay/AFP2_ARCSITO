@@ -2,6 +2,9 @@
 
 require_once('../database.php');
 require_once('../protected/user.php');
+require_once('../protected/cors.php');
+
+cors();
 
 $db = new db();
 $request_method = $_SERVER['REQUEST_METHOD'];
@@ -53,7 +56,7 @@ switch ($request_method) {
         }
         break;
     case 'PUT':
-        if (!isset($_GET['id'])) {
+        if (isset($_GET['id'])) {
             $request = json_decode(file_get_contents('php://input'), true);
             if (!isset($_SERVER['PHP_AUTH_USER']) || 
                 !isset($_SERVER['PHP_AUTH_PW']) || 
