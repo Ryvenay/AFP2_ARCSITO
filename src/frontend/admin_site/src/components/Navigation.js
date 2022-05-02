@@ -10,7 +10,7 @@ function Navigation() {
                         <Link className="nav-link active" aria-current="page" to="/events">Események</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/">Link</Link>
+                        <Link className="nav-link" to="/sports">Sportágak</Link>
                     </li>
                 </ul>
             </div>
