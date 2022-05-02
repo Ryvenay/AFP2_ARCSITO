@@ -29,7 +29,7 @@ CREATE TABLE `Sport` (
 );
 
 CREATE TABLE `Event_Participant` (
-  `event_id` int,
+  `event_id` char(36),
   `participant_id` int,
   PRIMARY KEY (`event_id`, `participant_id`)
 );
