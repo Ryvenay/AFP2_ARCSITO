@@ -36,10 +36,9 @@ switch ($request_method) {
             header('Content-Type: application/json', false, 401);
         }
         else {
-            if (isset($request['id']) && isset($request['sport_id']) && isset($request['name']) && isset($request['date'])) {
+            if (isset($request['sport_id']) && isset($request['name']) && isset($request['date'])) {
                 
-                $success = $db->execute("INSERT INTO Participant VALUES (:id, :name, :password, :neptun_code, :department_id, :city, :type)", [
-                    'id' => $request['id'],
+                $success = $db->execute("INSERT INTO Participant (name, password, neptun_code, department_id, city, type) VALUES (:name, :password, :neptun_code, :department_id, :city, :type)", [
                     'name' => $request['name'],
                     'password' => $request['password'],
                     'neptun_code' => $request['sport_id'],

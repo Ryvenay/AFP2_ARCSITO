@@ -36,10 +36,9 @@ switch ($request_method) {
             header('Content-Type: application/json', false, 401);
         }
         else {
-            if (isset($request['id']) && isset($request['name'])) {
+            if (isset($request['name'])) {
                 
-                $success = $db->execute("INSERT INTO Department VALUES (:id, :name)", [
-                    'id' => $request['id'],
+                $success = $db->execute("INSERT INTO Department (name) VALUES (:name)", [
                     'name' => $request['name']
                 ]);
                 
