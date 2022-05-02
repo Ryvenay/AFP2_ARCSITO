@@ -8,6 +8,7 @@ import EventList from "./components/event/EventList"
 import EventEdit from './components/event/EventEdit'
 import SportList from './components/sport/SportList'
 import SportEdit from './components/sport/SportEdit'
+import ExportToCSVButton from './components/ExportToCSVButton'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route path="/" element={<h1>hello</h1>}/>
+          <Route path="/" element={<ExportToCSVButton/>}/>
           <Route path="/events" element={<EventList/>}/>
           <Route path="/events/:uuid" element={<EventEdit/>}/>
           <Route path="/events/new" element={<EventEdit/>}/>
