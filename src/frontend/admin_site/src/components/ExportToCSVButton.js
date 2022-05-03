@@ -9,7 +9,7 @@ function exportToCSV(e) {
         .then(data => {
             let csvHeader = Object.keys(data[0]).join() + '\n'
             let csvData = data.map((record) => Object.values(record).join() + '\n')
-            let csvContents = csvHeader + '\n' + csvData
+            let csvContents = csvHeader + csvData
         
             let blob = new Blob([csvContents])
         
