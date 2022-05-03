@@ -24,17 +24,12 @@ function EventList() {
         QRCode.toString(uuid, (err, svgData) => {
             let blob = new Blob([svgData])
 
-            let event = new MouseEvent('click', {
-                'view': window,
-                'bubbles': true,
-                'cancelable': true
-            })
+            let link = document.createElement("a")
 
-            let element = document.createElement("a")
-
-            element.download = `${uuid}.svg`
-            element.href = URL.createObjectURL(blob)
-            element.dispatchEvent(event)
+            link.download = `${uuid}.svg`
+            link.href = URL.createObjectURL(blob)
+            link.click()
+            URL.revokeObjectURL(link.href)
         })
     }
 

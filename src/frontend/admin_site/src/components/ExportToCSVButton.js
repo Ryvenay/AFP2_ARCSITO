@@ -13,17 +13,12 @@ function exportToCSV(e) {
         
             let blob = new Blob([csvContents])
         
-            let event = new MouseEvent('click', {
-                'view': window,
-                'bubbles': true,
-                'cancelable': true
-            })
+            let link = document.createElement("a")
         
-            let element = document.createElement("a")
-        
-            element.download = `${new Date().toISOString()}.csv`
-            element.href = URL.createObjectURL(blob)
-            element.dispatchEvent(event)
+            link.download = `${new Date().toISOString()}.csv`
+            link.href = URL.createObjectURL(blob)
+            link.click()
+            URL.revokeObjectURL(link.href)
         })
 }
 
