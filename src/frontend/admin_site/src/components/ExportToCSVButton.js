@@ -11,7 +11,7 @@ function exportToCSV(e) {
             let csvData = data.map((record) => Object.values(record).join(';')).join('\n')
             let csvContents = csvHeader + csvData
         
-            let blob = new Blob([csvContents])
+            let blob = new Blob(["\ufeff", csvContents])
         
             let link = document.createElement("a")
         
