@@ -22,9 +22,9 @@ function EventList() {
 
     async function getQRCode(uuid) {
         QRCode.toString(uuid, (err, svgData) => {
-            let blob = new Blob([svgData])
+            const blob = new Blob([svgData])
 
-            let link = document.createElement("a")
+            const link = document.createElement("a")
 
             link.download = `${uuid}.svg`
             link.href = URL.createObjectURL(blob)

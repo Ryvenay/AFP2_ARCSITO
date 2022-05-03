@@ -7,14 +7,12 @@ function exportToCSV(e) {
     fetch(url, {headers: {'Authorization': auth}})
         .then(res => res.json())
         .then(data => {
-            let csvHeader = Object.keys(data[0]).join() + '\n'
-            let csvData = data.map((record) => Object.values(record).join(';')).join('\n')
-            let csvContents = csvHeader + csvData
+            const csvHeader = Object.keys(data[0]).join() + '\n'
+            const csvData = data.map((record) => Object.values(record).join(';')).join('\n')
         
-            let blob = new Blob(["\ufeff", csvContents])
+            const blob = new Blob(["\ufeff", csvHeader, csvData])
         
-            let link = document.createElement("a")
-        
+            const link = document.createElement("a")
             link.download = `${new Date().toISOString()}.csv`
             link.href = URL.createObjectURL(blob)
             link.click()
