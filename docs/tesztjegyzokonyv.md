@@ -34,3 +34,4 @@
 | Esemény lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Esemény módosítása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Esemény törlése | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Eseményhez tartozó QR-kód generálás | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
