@@ -22,3 +22,4 @@
 | Sportág módosítása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Sportág törlése | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Eseményhez tartozó UUID generálás | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| CSV exportáláshoz tartozó lekérdezés | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
