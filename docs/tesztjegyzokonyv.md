@@ -13,3 +13,4 @@
 |-------|------|------|--------------------------|-----------|
 | Intézményi egységek listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Intézményi egység létrehozása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| Intézményi egység lekérése azonosítóval | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
