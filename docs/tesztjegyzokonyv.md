@@ -41,6 +41,8 @@ Az API végpontok tesztelése során a Postman és a Fiddler csak GET kérést h
 
 | Modul | Név | Dátum | Működik-e? | Megjegyzés |
 |-------|------|------|--------------------------|-----------|
+| Kapcsolódás az API-hoz | Árvai Dániel | 2022.05.02. | Nem | A szerver elutasította a kérést |
+| Kapcsolódás az API-hoz | Árvai Dániel | 2022.05.02. | Igen | Javítva: CORS engedélyezve a back-enden |
 | Események listázása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Esemény létrehozása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Esemény lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
