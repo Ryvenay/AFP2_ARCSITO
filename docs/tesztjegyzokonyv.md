@@ -8,7 +8,6 @@
 
 ## REST API
 
-
 | Modul | Név | Dátum | Működik-e? | Megjegyzés |
 |-------|------|------|--------------------------|-----------|
 | Intézményi egységek listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
@@ -17,3 +16,4 @@
 | Intézményi egység módosítása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Intézményi egység törlése | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Vendég kategóriák listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| Sportágak listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
