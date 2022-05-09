@@ -19,3 +19,4 @@
 | Sportágak listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Sportág létrehozása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Sportág lekérése azonosítóval | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| Sportág módosítása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
