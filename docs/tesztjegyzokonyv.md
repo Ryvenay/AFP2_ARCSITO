@@ -19,3 +19,8 @@
 | Vendég lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Vendég módosítása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Vendég törlése | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Események listázása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény létrehozása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény módosítása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény törlése | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
