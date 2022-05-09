@@ -17,3 +17,4 @@
 | Intézményi egység törlése | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Vendég kategóriák listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Sportágak listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| Sportág létrehozása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
