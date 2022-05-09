@@ -25,3 +25,26 @@
 | CSV exportáláshoz tartozó lekérdezés | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 
 Az API végpontok tesztelése során a Postman és a Fiddler csak GET kérést hajtott végre megfelelően, ezért a HTTPie nevű program használatára váltottunk. Ez egy alapvetően konzolos alkalmazás, melynek UI-val rendelkező változata jelenleg is fejlesztés alatt áll. Ennek a zárt béta programjába bekerülve alkalmunk nyílt a könnyebb, átláthatóbb, gyorsabb tesztelésre.
+| Autentikáció | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Vendégek listázása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Vendég hozzáadása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Vendég lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Vendég módosítása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Vendég törlése | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Események listázása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény létrehozása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény módosítása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény törlése | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+
+## Admin felület
+
+| Modul | Név | Dátum | Működik-e? | Megjegyzés |
+|-------|------|------|--------------------------|-----------|
+| Események listázása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény létrehozása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény lekérése azonosítóval | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény módosítása | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Esemény törlése | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| Eseményhez tartozó QR-kód generálás | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
+| CSV exportálás | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
