@@ -15,3 +15,4 @@
 | Intézményi egység létrehozása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Intézményi egység lekérése azonosítóval | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Intézményi egység módosítása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| Intézményi egység törlése | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
