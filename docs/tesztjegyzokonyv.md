@@ -51,3 +51,4 @@ Az API végpontok tesztelése során a Postman és a Fiddler csak GET kérést h
 | Eseményhez tartozó QR-kód generálás | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | CSV exportálás | Csicsman Dominika | 2022.05.09. | Igen | Megfelelően működik |
 | Sportágak listázása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+| Sportág létrehozása | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
