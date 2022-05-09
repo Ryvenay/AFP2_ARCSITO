@@ -23,3 +23,5 @@
 | Sportág törlése | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | Eseményhez tartozó UUID generálás | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
 | CSV exportáláshoz tartozó lekérdezés | Árvai Dániel | 2022.05.09. | Igen | Megfelelően működik |
+
+Az API végpontok tesztelése során a Postman és a Fiddler csak GET kérést hajtott végre megfelelően, ezért a HTTPie nevű program használatára váltottunk. Ez egy alapvetően konzolos alkalmazás, melynek UI-val rendelkező változata jelenleg is fejlesztés alatt áll. Ennek a zárt béta programjába bekerülve alkalmunk nyílt a könnyebb, átláthatóbb, gyorsabb tesztelésre.
