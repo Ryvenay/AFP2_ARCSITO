@@ -15,6 +15,7 @@ Back-end fejlesztők:
 
 Front-end fejlesztők:
 - Árvai Dániel
+- Csicsman Dominika
 - D.Tóth Bátor
 
 ### Ütemterv
